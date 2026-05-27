@@ -1,6 +1,6 @@
 # Nivel Basico 1: En la era de la IA, saber hablar es saber programar
 
-Este es un tutorial de aprendizaje **basado en proyectos**. Te recomendamos seguir los pasos uno por uno y tratar de reproducir los resultados.
+Este es un tutorial de aprendizaje **basado en proyectos**. Te recommendamos seguir los pasos uno por uno y tratar de reproducir los resultados.
 No tengas miedo de equivocarte o de cambiar cosas. Recuerda:
 
 <div style="text-align: center;">

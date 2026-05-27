@@ -127,7 +127,7 @@ const topicPool = {
   ]
 }
 
-// Mapa predefinido de recomendaciones según ambiente y sensación
+// Mapa predefinido de recommendaciones según ambiente y sensación
 const recommendationMap = {
   // Ambiente: reparador
   'healing': {
@@ -200,14 +200,14 @@ const scenarios = [
   { key: 'fashion', name: 'Estilo y vestimenta', anchor: '#_16-estilo-y-vestimenta' }
 ]
 
-// Calcula recomendaciones tomando elementos aleatorios del pool de temas
+// Calcula recommendaciones tomando elementos aleatorios del pool de temas
 const recommendationTopics = computed(() => {
   if (!vibePoint.value || !feeling.value) return []
   
   const keys = recommendationMap[vibePoint.value]?.[feeling.value] || []
   const topics = []
   
-  // Toma aleatoriamente 1-2 temas de cada escenario recomendado
+  // Toma aleatoriamente 1-2 temas de cada escenario recommendado
   keys.forEach(key => {
     const scenario = scenarios.find(item => item.key === key)
     const scenarioTopics = topicPool[key] || []
@@ -312,7 +312,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 <el-card shadow="hover" style="margin-top: 16px; margin-bottom: 24px; border-left: 5px solid #ec4899;">
   <div style="font-weight: 600; margin-bottom: 8px;">Encuentra la inspiración que te toca</div>
   <div style="color: #606266; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">
-    Elige el ambiente que quieres y tu sensación actual. El sistema recomendará escenarios relacionados; haz clic en una etiqueta para saltar a la sección correspondiente.
+    Elige el ambiente que quieres y tu sensación actual. El sistema recommendará escenarios relacionados; haz clic en una etiqueta para saltar a la sección correspondiente.
   </div>
   <el-row :gutter="16">
     <el-col :span="12">
@@ -345,7 +345,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
   
   <div v-if="recommendationTopics.length > 0" style="margin-top: 16px;">
     <div style="font-weight: 600; margin-bottom: 12px; color: #ec4899;">
-      Escenarios recomendados para {{ currentSelection.vibe }} × {{ currentSelection.feeling }}:
+      Escenarios recommendados para {{ currentSelection.vibe }} × {{ currentSelection.feeling }}:
     </div>
     <div style="display: flex; flex-wrap: wrap; gap: 8px;">
       <el-tag
@@ -424,7 +424,7 @@ Diseña ambientes domésticos para personas que viven solas, combinando de forma
 ### 1.3 Generador de planes reparadores de fin de semana en casa
 
 **Descripción del escenario**:
-El viernes por la noche, genera el plan perfecto para quedarse en casa según el ánimo y el clima: recomendaciones de películas, snacks, decoración e incluso un rincón ideal para no hacer nada.
+El viernes por la noche, genera el plan perfecto para quedarse en casa según el ánimo y el clima: recommendaciones de películas, snacks, decoración e incluso un rincón ideal para no hacer nada.
 
 **Claves para crear ambiente**:
 - Presentación visual calmante

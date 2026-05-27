@@ -127,7 +127,7 @@ const topicPool = {
   ]
 }
 
-// Mapa predefinido de recomendaciones según ambiente y sensación
+// Mapa predefinido de recommendaciones según ambiente y sensación
 const recommendationMap = {
   // Ambiente: reparador
   'healing': {
@@ -200,14 +200,14 @@ const scenarios = [
   { key: 'fashion', name: 'Estilo y vestimenta', anchor: '#_16-estilo-y-vestimenta' }
 ]
 
-// Calcula recomendaciones tomando elementos aleatorios del pool de temas
+// Calcula recommendaciones tomando elementos aleatorios del pool de temas
 const recommendationTopics = computed(() => {
   if (!vibePoint.value || !feeling.value) return []
   
   const keys = recommendationMap[vibePoint.value]?.[feeling.value] || []
   const topics = []
   
-  // Toma aleatoriamente 1-2 temas de cada escenario recomendado
+  // Toma aleatoriamente 1-2 temas de cada escenario recommendado
   keys.forEach(key => {
     const scenario = scenarios.find(item => item.key === key)
     const scenarioTopics = topicPool[key] || []
@@ -312,7 +312,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 <el-card shadow="hover" style="margin-top: 16px; margin-bottom: 24px; border-left: 5px solid #ec4899;">
   <div style="font-weight: 600; margin-bottom: 8px;">Encuentra la inspiración que te toca</div>
   <div style="color: #606266; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">
-    Elige el ambiente que quieres y tu sensación actual. El sistema recomendará escenarios relacionados; haz clic en una etiqueta para saltar a la sección correspondiente.
+    Elige el ambiente que quieres y tu sensación actual. El sistema recommendará escenarios relacionados; haz clic en una etiqueta para saltar a la sección correspondiente.
   </div>
   <el-row :gutter="16">
     <el-col :span="12">
@@ -345,7 +345,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
   
   <div v-if="recommendationTopics.length > 0" style="margin-top: 16px;">
     <div style="font-weight: 600; margin-bottom: 12px; color: #ec4899;">
-      Escenarios recomendados para {{ currentSelection.vibe }} × {{ currentSelection.feeling }}:
+      Escenarios recommendados para {{ currentSelection.vibe }} × {{ currentSelection.feeling }}:
     </div>
     <div style="display: flex; flex-wrap: wrap; gap: 8px;">
       <el-tag
@@ -430,7 +430,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 | N.º | Escenario de aplicación | Funcionalidad del escenario |
 | :--: | ------------ | ------------ |
 | 1 | Generador de temas rompehielos | Recomendación inteligente de temas según ocasión y participantes; análisis de conversación en tiempo real para sugerir continuidad; rescate en momentos incómodos |
-| 2 | Redactor de ambiente para publicaciones sociales | Análisis de imágenes, textos en varios estilos con LLM (artístico/humorístico/profundo); recomendación inteligente de emojis y maquetación |
+| 2 | Redactor de ambiente para publicaciones sociales | Análisis de imágenes, textos en varios estilos con LLM (artístico/humorístico/profundo); recommendación inteligente de emojis y maquetación |
 | 3 | Planificador de ambiente para citas | Genera planes de cita según intereses de ambas partes; recomienda restaurantes/actividades y temas de conversación; alertas de clima y tráfico |
 | 4 | Animador de reuniones remotas | Biblioteca de juegos online, generador de actividades rompehielos, ruleta de temas; fondos virtuales y filtros para reforzar el ambiente |
 | 5 | Asistente de gestión de energía social | Evalúa el desgaste tras actividades sociales, sugiere recuperación (actividades en solitario) y planifica inteligentemente el calendario social |
@@ -444,9 +444,9 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 | N.º | Escenario de aplicación | Funcionalidad del escenario |
 | :--: | ------------ | ------------ |
 | 1 | Kit de emergencia contra el bloqueo creativo | Algoritmo de asociaciones entre dominios, generación de estímulos aleatorios, biblioteca de prompts creativos y herramienta de expansión tipo mapa mental |
-| 2 | Guía de exploración del estilo personal | Análisis de imagen para reconocer el estilo actual; recomendaciones de tendencias; prueba virtual de ropa/maquillaje; línea de evolución del estilo |
+| 2 | Guía de exploración del estilo personal | Análisis de imagen para reconocer el estilo actual; recommendaciones de tendencias; prueba virtual de ropa/maquillaje; línea de evolución del estilo |
 | 3 | Asesor estético para journaling y diarios | Recomendación de plantillas de maquetación, generación de paletas, sugerencias decorativas, reconocimiento de escritura manual y embellecimiento de contenido |
-| 4 | Guía de composición y ambiente fotográfico | Reconocimiento de escena, sugerencias de composición, filtros recomendados, ajuste inteligente de parámetros de edición y ruta de aprendizaje fotográfico |
+| 4 | Guía de composición y ambiente fotográfico | Reconocimiento de escena, sugerencias de composición, filtros recommendados, ajuste inteligente de parámetros de edición y ruta de aprendizaje fotográfico |
 | 5 | Emparejador de música y estado de ánimo | Análisis emocional de música, detección del estado de ánimo, listas personalizadas e historias/contexto de las canciones |
 
 ---
@@ -487,7 +487,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 | :--: | ------------ | ------------ |
 | 1 | Guía gamificada de exploración del conocimiento | Visualiza mapas de conceptos, rutas de aprendizaje por niveles, sistema de insignias y mentor de IA con rol narrativo |
 | 2 | Compañero situacional para aprender idiomas | El LLM interpreta distintos roles en conversaciones, corrige pronunciación, explica contexto cultural y simula situaciones inmersivas |
-| 3 | Asistente para satisfacer la curiosidad | Conexión a Wikipedia/grafos de conocimiento, explicación simple de conceptos complejos, recomendaciones relacionadas y registro de curiosidades |
+| 3 | Asistente para satisfacer la curiosidad | Conexión a Wikipedia/grafos de conocimiento, explicación simple de conceptos complejos, recommendaciones relacionadas y registro de curiosidades |
 | 4 | Inspirador de notas de lectura | Analiza libros, extrae y relaciona ideas, recomienda ángulos de reflexión, plantillas y embellecimiento de notas |
 | 5 | Creador de ambiente para compartir conocimiento | Genera tarjetas de conocimiento, optimiza copy para compartir, mejora visuales y ofrece retroalimentación de datos sociales |
 
@@ -501,7 +501,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 | :--: | ------------ | ------------ |
 | 1 | Coach de comunicación para relaciones íntimas | Genera plantillas de expresión emocional, guía comunicación no violenta, ofrece frases para resolver conflictos y evalúa salud relacional |
 | 2 | Asistente de cuidado familiar | Recordatorios de fechas importantes (cumpleaños/aniversarios), sugerencias de mensajes afectivos, actividades familiares y creación de álbum familiar |
-| 3 | Creador de ambiente para mantener amistades | Registro de interacciones con amigos, temas comunes recomendados, organización de reuniones remotas y generación de línea de tiempo de recuerdos |
+| 3 | Creador de ambiente para mantener amistades | Registro de interacciones con amigos, temas comunes recommendados, organización de reuniones remotas y generación de línea de tiempo de recuerdos |
 | 4 | Planificador de confesiones y sorpresas | Genera planes personalizados de sorpresa, recomienda regalos, sugiere frases románticas, cronograma y recordatorios |
 | 5 | Guía para suavizar conflictos | Frases para bajar la intensidad emocional, guía para ponerse en el lugar del otro, pasos de reconciliación y seguimiento de reparación |
 
@@ -541,7 +541,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 
 | N.º | Escenario de aplicación | Funcionalidad del escenario |
 | :--: | ------------ | ------------ |
-| 1 | Acompañante para la confusión profesional | Evaluación de intereses, inventario de habilidades, recomendaciones de información sectorial y conversaciones con mentor profesional |
+| 1 | Acompañante para la confusión profesional | Evaluación de intereses, inventario de habilidades, recommendaciones de información sectorial y conversaciones con mentor profesional |
 | 2 | Activador de sentido de logro laboral | Registro de resultados, extracción de valor, visualización de logros y recopilación de feedback positivo de colegas/clientes |
 | 3 | Asistente de ambiente social en el trabajo | Recomendación de temas profesionales, técnicas de networking, eventos del sector y optimización de contenido en LinkedIn |
 | 4 | Generador de inspiración para proyectos paralelos | Matching entre habilidades, intereses y demanda de mercado; casos de side projects, guía de inicio y comunidad |
@@ -571,7 +571,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 | :--: | ------------ | ------------ |
 | 1 | Cocina reparadora para comer a solas | Reconocimiento de ingredientes en la nevera, recetas sencillas, guía paso a paso y estética de emplatado individual |
 | 2 | Diseño de ambiente para mesas festivas | Menús temáticos, propuestas de montaje de mesa, técnicas de ambientación y optimización de experiencia de invitados |
-| 3 | Emparejador de cocina y estado de ánimo | Algoritmo emoción-comida, recetas para regulación emocional, recomendación de comfort food y guía terapéutica de cocina |
+| 3 | Emparejador de cocina y estado de ánimo | Algoritmo emoción-comida, recetas para regulación emocional, recommendación de comfort food y guía terapéutica de cocina |
 | 4 | Generador de confianza para principiantes en cocina | Recetas ultrafáciles, técnicas de rescate ante errores, frases de confianza y progresión gradual de dificultad |
 | 5 | Guía de ambiente para fotografía gastronómica | Consejos de emplatado, uso de luz natural, ángulos de captura, filtros y sugerencias de postproducción |
 
@@ -585,7 +585,7 @@ Este documento resume <strong>direcciones creativas de aplicación de modelos LL
 | :--: | ------------ | ------------ |
 | 1 | Mood board del outfit de hoy | Recomendaciones combinando clima, ocasión y estado de ánimo; prueba virtual, inspiración de conjuntos y gestión del armario |
 | 2 | Estilista de armario cápsula | Inventario del armario, combinaciones de prendas, planes de múltiples usos y sugerencias de compra para cubrir vacíos |
-| 3 | Viaje de exploración del estilo personal | Test de estilo, recomendación de referentes, ruta de evolución y construcción de confianza |
+| 3 | Viaje de exploración del estilo personal | Test de estilo, recommendación de referentes, ruta de evolución y construcción de confianza |
 | 4 | Creativo para reinventar ropa antigua | Inspiración para transformar ropa, nuevas combinaciones, detalles con accesorios y moda sostenible |
 | 5 | Asesor de look para ocasiones especiales | Interpretación del dress code, generación de propuestas, consejos de maquillaje/peinado y coordinación general |
 

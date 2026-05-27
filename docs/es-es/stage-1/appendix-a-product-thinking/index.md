@@ -73,9 +73,9 @@ Regla rapida:
 
 ## 1.3 Por que algunas ideas crecen solas
 
-Cuando el valor es inmediato y el flujo es corto, la recomendacion aparece de forma natural:
+Cuando el valor es inmediato y el flujo es corto, la recommendacion aparece de forma natural:
 
-Problema -> valor pequeno inmediato -> repeticion -> recomendacion.
+Problema -> valor pequeno inmediato -> repeticion -> recommendacion.
 
 Si el producto necesita mucha explicacion o empuje externo, suele ser senal de que el dolor no es fuerte.
 
@@ -132,7 +132,7 @@ La IA aporta mas cuando:
 
 1. Convierte lenguaje en estructura (texto -> tareas, notas -> plan).
 2. Resume y prioriza (mucho contenido -> accion).
-3. Personaliza (recomendaciones segun contexto).
+3. Personaliza (recommendaciones segun contexto).
 
 Suele aportar poco cuando solo se pega un chat sin mejorar el flujo central.
 

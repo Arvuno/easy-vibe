@@ -29,7 +29,7 @@ const topicPool = {
   ],
   'education': [
     { title: 'Sistema de planificación de rutas de aprendizaje de idiomas personalizado y tutoría inteligente', desc: 'Evaluación del nivel del aprendiz, planificación de tareas de estudio diarias' },
-    { title: 'Plataforma de elaboración automatizada de planes de clase y recomendación de recursos educativos', desc: 'Generación de estructura de planes de clase según el programa de estudios' },
+    { title: 'Plataforma de elaboración automatizada de planes de clase y recommendación de recursos educativos', desc: 'Generación de estructura de planes de clase según el programa de estudios' },
     { title: 'Sistema de corrección automatizada de tareas y análisis diagnóstico del rendimiento', desc: 'Corrección automática de preguntas subjetivas y generación de sugerencias de corrección' },
     { title: 'Construcción de modelos de competencias laborales y mapas de aprendizaje', desc: 'Análisis de descripciones de puestos para extraer requisitos de competencias' },
     { title: 'Práctica conversacional individualizada de idiomas extranjeros en escenarios simulados', desc: 'LLM asume diferentes roles para practicar conversaciones orales' }
@@ -57,17 +57,17 @@ const topicPool = {
   ],
   'finance': [
     { title: 'Asistente de generación inteligente de informes de debida diligencia crediticia', desc: 'Entrada de datos financieros, generación automática de informes de debida diligencia crediticia' },
-    { title: 'Asesor inteligente de gestión de patrimonio bancario privado', desc: 'Análisis del perfil de riesgo del cliente, generación de recomendaciones de asignación de activos' },
+    { title: 'Asesor inteligente de gestión de patrimonio bancario privado', desc: 'Análisis del perfil de riesgo del cliente, generación de recommendaciones de asignación de activos' },
     { title: 'Asistente de generación inteligente y verificación de cumplimiento de prospectos de IPO', desc: 'Plantillas modulares, llenado automático de descripciones del negocio' },
     { title: 'Sistema de generación automática de informes financieros y alerta de anomalías operativas', desc: 'Generación automática de análisis financiero y discusión de la dirección' },
     { title: 'Entrenador de guiones de venta inteligente para agentes de seguros', desc: 'Simulación de conversaciones, evaluación de la conformidad y persuasión de los guiones' }
   ],
   'enterprise': [
     { title: 'Plataforma de revisión de cumplimiento y sugerencias de modificación de contratos empresariales en todo su ciclo de vida', desc: 'Comparación de cláusulas con bases de datos normativas, generación de informes de cumplimiento' },
-    { title: 'Transcripción por voz de reuniones de ventas y recomendación de guiones', desc: 'Transcripción ASR, análisis de conversaciones y recomendación de guiones ganadores' },
+    { title: 'Transcripción por voz de reuniones de ventas y recommendación de guiones', desc: 'Transcripción ASR, análisis de conversaciones y recommendación de guiones ganadores' },
     { title: 'Sistema inteligente de generación y diseño de contenido de marketing', desc: 'Generación de textos de marketing y extracción de puntos de venta' },
     { title: 'Plataforma de análisis de publicidad de la competencia', desc: 'Recopilación de anuncios de la competencia, análisis de estrategias de publicación' },
-    { title: 'Sistema de análisis inteligente de temas populares y recomendación de contenido', desc: 'Análisis de tendencias populares y recomendación de ángulos temáticos' }
+    { title: 'Sistema de análisis inteligente de temas populares y recommendación de contenido', desc: 'Análisis de tendencias populares y recommendación de ángulos temáticos' }
   ],
   'content': [
     { title: 'Plataforma de asistencia creativa para contenido de cine y televisión y novelas', desc: 'Proporciona sinopsis, desarrollo de personajes, generación de diálogos' },
@@ -116,10 +116,10 @@ const topicPool = {
     { title: 'Fábrica de generación de videos de prueba de vestir y exhibición de modelos virtuales con IA', desc: 'Generación de efectos de prueba de vestir en modelos virtuales' },
     { title: 'Asistente de traducción y pulido localizado multilingüe con LLM para comercio electrónico transfronterizo', desc: 'Traducción multilingüe de descripciones de productos' },
     { title: 'Sistema de transmisión en vivo con avatares digitales AIGC las 24 horas', desc: 'Imagen digital + generación de guiones en tiempo real' },
-    { title: 'Motor de análisis de tendencias de mercado por IA y predicción de productos exitosos', desc: 'Análisis de tendencias populares, recomendaciones de selección de productos' }
+    { title: 'Motor de análisis de tendencias de mercado por IA y predicción de productos exitosos', desc: 'Análisis de tendencias populares, recommendaciones de selección de productos' }
   ],
   'energy': [
-    { title: 'Asesor de análisis del comportamiento de consumo eléctrico doméstico y estrategias de ahorro energético con IA', desc: 'Análisis de patrones de consumo, generación de recomendaciones de ahorro' },
+    { title: 'Asesor de análisis del comportamiento de consumo eléctrico doméstico y estrategias de ahorro energético con IA', desc: 'Análisis de patrones de consumo, generación de recommendaciones de ahorro' },
     { title: 'Sistema de reconocimiento visual CV por dron de defectos en paneles fotovoltaicos', desc: 'Inspección con dron, análisis de imágenes termoinfrarrojas' },
     { title: 'Agente de predicción de tendencias de precios de mercado eléctrico al contado y estrategia automática de ganancias con IA', desc: 'Modelo de predicción de precios, generación de estrategias' },
     { title: 'Asistente de cálculo automático de emisiones de carbono en toda la cadena empresarial y generación de informes ESG con IA', desc: 'Cálculo de factores de emisión de carbono, generación de informes ESG' },
@@ -133,7 +133,7 @@ const topicPool = {
     { title: 'Asistente de transcripción inteligente por IA y extracción de tareas pendientes de grabaciones de reuniones', desc: 'Separación y transcripción de voz en reuniones multilingües' }
   ],
   'ai-marketing': [
-    { title: 'Motor de redacción automática AIGC de textos virales para Xiaohongshu (RED)', desc: 'Generación de textos de recomendación, optimización de emoji' },
+    { title: 'Motor de redacción automática AIGC de textos virales para Xiaohongshu (RED)', desc: 'Generación de textos de recommendación, optimización de emoji' },
     { title: 'Herramienta de diseño inteligente de pósters de marketing y adaptación a múltiples tamaños', desc: 'Emparejamiento inteligente de plantillas de pósters' },
     { title: 'Plataforma de generación creativa AIGC de LOGO de marca y construcción del sistema de identidad visual (VI)', desc: 'Generación creativa de LOGO, generación de normativas VI' },
     { title: 'Asistente de seguimiento de tendencias populares por IA y generación creativa de marketing oportunista', desc: 'Análisis de ángulos de marketing, generación de propuestas creativas' },
@@ -148,7 +148,7 @@ const topicPool = {
   ]
 }
 
-// Tabla de mapeo predefinida de recomendaciones
+// Tabla de mapeo predefinida de recommendaciones
 const recommendationMap = {
   // Punto de interés: Contenido creativo
   'creative-content': {
@@ -224,14 +224,14 @@ const industries = [
   { key: 'data-intelligence', name: 'Inteligencia de datos', anchor: '#_19-inteligencia-de-datos' }
 ]
 
-// Calcular resultados de recomendación - extracción aleatoria del grupo de temas
+// Calcular resultados de recommendación - extracción aleatoria del grupo de temas
 const recommendationTopics = computed(() => {
   if (!interestPoint.value || !purpose.value) return []
   
   const keys = recommendationMap[interestPoint.value]?.[purpose.value] || []
   const topics = []
   
-  // Extraer 1-2 temas aleatoriamente de cada industria recomendada
+  // Extraer 1-2 temas aleatoriamente de cada industria recommendada
   keys.forEach(key => {
     const industry = industries.find(item => item.key === key)
     const industryTopics = topicPool[key] || []
@@ -336,7 +336,7 @@ Este documento recopila las <strong>aplicaciones prácticas de los modelos LLM e
 <el-card shadow="hover" style="margin-top: 16px; margin-bottom: 24px; border-left: 5px solid #409EFF;">
   <div style="font-weight: 600; margin-bottom: 8px;">Encuentra el escenario de aplicación adecuado para ti</div>
   <div style="color: #606266; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">
-    Selecciona tu área de interés y el objetivo que deseas alcanzar. El sistema recomendará escenarios sectoriales relevantes. Haz clic en las etiquetas para saltar al capítulo correspondiente.
+    Selecciona tu área de interés y el objetivo que deseas alcanzar. El sistema recommendará escenarios sectoriales relevantes. Haz clic en las etiquetas para saltar al capítulo correspondiente.
   </div>
   <el-row :gutter="16">
     <el-col :span="12">
@@ -369,7 +369,7 @@ Este documento recopila las <strong>aplicaciones prácticas de los modelos LLM e
     </el-col>
   </el-row>
   
-  <!-- Visualización de resultados de recomendación - formato de tabla -->
+  <!-- Visualización de resultados de recommendación - formato de tabla -->
   <div v-if="recommendationTopics.length > 0" style="margin-top: 16px;">
     <div style="font-weight: 600; margin-bottom: 10px; color: #409EFF;">
       Se recomiendan {{ recommendationTopics.length }} escenarios de aplicación para ti
@@ -453,10 +453,10 @@ Los escenarios de la industria manufacturera se centran principalmente en tres d
 | 4 | Asistente de generación automática de informes de inspección de equipos de producción | El personal de inspección describe el estado del equipo por voz, LLM genera informes de inspección estructurados; asociación automática con registros históricos de fallos |
 | 5 | Sistema inteligente de despacho y planificación de rutas para carretillas elevadoras en fábrica | LLM analiza tareas de pedidos y ubicaciones del almacén, combinado con API de mapas para generar el plan de despacho óptimo |
 | 6 | Almacén de datos basado en recuperación de información LLM | Tecnología Text-to-SQL para convertir lenguaje natural en consultas a bases de datos, Superset para visualización de resultados; Doris o ClickHouse como motor OLAP |
-| 7 | Asistente de preguntas y respuestas sobre diagnóstico de fallos en equipos industriales | Construcción de una base de conocimiento vectorial basada en casos históricos de fallos, LLM proporciona recomendaciones de diagnóstico y soluciones según la descripción del fallo |
+| 7 | Asistente de preguntas y respuestas sobre diagnóstico de fallos en equipos industriales | Construcción de una base de conocimiento vectorial basada en casos históricos de fallos, LLM proporciona recommendaciones de diagnóstico y soluciones según la descripción del fallo |
 | 8 | Generación inteligente de informes de control de calidad y clasificación de defectos en producción | OCR identifica defectos en fotografías de control de calidad, LLM genera informes de control de calidad estructurados; clasificación automática de tipos y gravedad de defectos |
 | 9 | Asistente inteligente de inventario y generación de informes de recuento | Ingreso de datos de recuento, LLM compara automáticamente con el inventario del sistema y genera informe de diferencias; alerta de inventario anómalo |
-| 10 | Sistema inteligente de preguntas y respuestas sobre optimización de procesos de producción | Construcción de base de conocimiento RAG basada en documentos de procesos de producción, LLM proporciona recomendaciones de optimización según problemas de producción |
+| 10 | Sistema inteligente de preguntas y respuestas sobre optimización de procesos de producción | Construcción de base de conocimiento RAG basada en documentos de procesos de producción, LLM proporciona recommendaciones de optimización según problemas de producción |
 
 ## 2. Servicio al cliente inteligente
 
@@ -465,14 +465,14 @@ Los escenarios de servicio al cliente inteligente se centran en la mejora de la 
 | N.º | Nombre del escenario de aplicación | Referencia de implementación |
 | :--: | --- | --- |
 | 1 | Sistema de respuesta automática y generación de tickets de servicio al cliente multicanal inteligente | Integración de mensajes de múltiples canales (WeChat, APP, sitio web, etc.), LLM comprende la intención y genera respuestas creando tickets automáticamente; uso de LangChain para construir el flujo de conversación, MySQL para almacenar datos de tickets |
-| 2 | Asistente de prospección y seguimiento de clientes potenciales | LLM analiza registros históricos de conversaciones de servicio al cliente, identifica características de clientes con alta intención de compra y los puntúa; sistema de recomendación combinado con algoritmos de filtrado colaborativo |
+| 2 | Asistente de prospección y seguimiento de clientes potenciales | LLM analiza registros históricos de conversaciones de servicio al cliente, identifica características de clientes con alta intención de compra y los puntúa; sistema de recommendación combinado con algoritmos de filtrado colaborativo |
 | 3 | Sistema inteligente de búsqueda y respuestas del conocimiento interno empresarial | Construcción de base de conocimiento vectorial basada en Confluence y documentos internos, LLM combinado con tecnología RAG para generar respuestas |
 | 4 | Sistema de encuestas de satisfacción del cliente y gestión de mejora del servicio | LLM analiza automáticamente el contenido de las conversaciones de servicio al cliente para clasificación de sentimientos y puntuación de satisfacción; informes BI muestran los resultados del análisis |
 | 5 | Herramienta de resumen inteligente de conversaciones y generación de tickets de servicio | Tras finalizar la conversación, LLM genera automáticamente un resumen de la sesión y extrae información clave; llenado automático de campos del ticket |
 | 6 | Asistente de detección automática de conformidad de guiones de servicio al cliente | El agente ingresa el contenido de respuesta, LLM detecta en tiempo real la conformidad del guion y palabras sensibles; proporciona sugerencias de modificación |
 | 7 | Herramienta de resumen automático y clasificación de tickets de servicio al cliente | LLM genera resúmenes y clasificación automática de etiquetas a partir de registros de conversaciones largas; Elasticsearch soporta búsqueda de texto completo en tickets |
 | 8 | Herramienta de monitoreo de emociones del cliente y alerta de anomalías | Análisis en tiempo real de características de tono de voz y emociones en texto, LLM identifica emociones anómalas y activa alertas; notificaciones de alerta por WebSocket |
-| 9 | Sistema de base de conocimiento de guiones ganadores del servicio al cliente | LLM analiza casos de conversación excelentes de agentes, extrae plantillas de guiones ganadores; sistema de recomendación sugiere guiones en tiempo real según el contexto de la conversación |
+| 9 | Sistema de base de conocimiento de guiones ganadores del servicio al cliente | LLM analiza casos de conversación excelentes de agentes, extrae plantillas de guiones ganadores; sistema de recommendación sugiere guiones en tiempo real según el contexto de la conversación |
 | 10 | Asistente de análisis de contenido de llamadas salientes y control de calidad | Tras la transcripción de grabaciones de llamadas salientes, LLM analiza el contenido de la conversación para extraer información clave; generación automática de informes de control de calidad y sugerencias de mejora |
 
 ## 3. Sector educativo
@@ -481,15 +481,15 @@ Los escenarios del sector educativo buscan lograr una enseñanza personalizada y
 
 | N.º | Nombre del escenario de aplicación | Referencia de implementación |
 | :--: | --- | --- |
-| 1 | Sistema de planificación de rutas de aprendizaje de idiomas personalizado y tutoría inteligente | LLM evalúa el nivel actual del aprendiz, planifica tareas de estudio diarias según los objetivos de aprendizaje; algoritmo de recomendación combinado con grafo de conocimiento para recomendar recursos de aprendizaje |
-| 2 | Plataforma de elaboración automatizada de planes de clase y recomendación de recursos educativos | LLM genera la estructura del plan de clase y el diseño didáctico según el programa de estudios; base de conocimiento vectorial almacena planes de clase y materiales de calidad, soportando búsqueda por palabras clave y recomendaciones similares |
+| 1 | Sistema de planificación de rutas de aprendizaje de idiomas personalizado y tutoría inteligente | LLM evalúa el nivel actual del aprendiz, planifica tareas de estudio diarias según los objetivos de aprendizaje; algoritmo de recommendación combinado con grafo de conocimiento para recommendar recursos de aprendizaje |
+| 2 | Plataforma de elaboración automatizada de planes de clase y recommendación de recursos educativos | LLM genera la estructura del plan de clase y el diseño didáctico según el programa de estudios; base de conocimiento vectorial almacena planes de clase y materiales de calidad, soportando búsqueda por palabras clave y recommendaciones similares |
 | 3 | Sistema de corrección automatizada de tareas y análisis diagnóstico del rendimiento | LLM corrige automáticamente preguntas subjetivas y genera sugerencias de corrección, el grafo de conocimiento identifica los puntos débiles de conocimiento del estudiante |
 | 4 | Construcción de modelos de competencias laborales y mapas de aprendizaje | LLM analiza las descripciones de puestos para extraer requisitos de competencias, construyendo perfiles de competencias laborales; generación de mapas de aprendizaje personalizados según las brechas identificadas |
 | 5 | Sistema de construcción del currículo escolar y herramientas de elaboración de materiales didácticos | LLM analiza las características de la escuela y las necesidades de los estudiantes, genera la estructura del currículo escolar; integración con API de generación de PPT para crear automáticamente materiales |
 | 6 | Práctica conversacional individualizada de idiomas extranjeros en escenarios simulados | LLM asume diferentes roles para practicar conversaciones orales, ASR reconoce la pronunciación y la puntúa; TTS genera ejemplos de pronunciación estándar |
-| 7 | Plataforma de recomendación basada en big data para selección de carreras universitarias y orientación profesional | LLM analiza información del estudiante como puntuaciones, clasificaciones e intereses, combinado con datos de admisión para recomendar universidades y carreras |
+| 7 | Plataforma de recommendación basada en big data para selección de carreras universitarias y orientación profesional | LLM analiza información del estudiante como puntuaciones, clasificaciones e intereses, combinado con datos de admisión para recommendar universidades y carreras |
 | 8 | Asistente de programación para niños | LLM explica la lógica del código y proporciona orientación de programación, soportando alternancia entre lenguajes por bloques y Python |
-| 9 | Herramienta de generación automática de mapas mentales de conceptos y recomendación de rutas de aprendizaje | Ingreso del tema del curso, LLM genera automáticamente mapas mentales de conceptos; recomendación del siguiente contenido de estudio según el progreso |
+| 9 | Herramienta de generación automática de mapas mentales de conceptos y recommendación de rutas de aprendizaje | Ingreso del tema del curso, LLM genera automáticamente mapas mentales de conceptos; recommendación del siguiente contenido de estudio según el progreso |
 | 10 | Motor de calificación y corrección automatizada de redacciones en chino e inglés | LLM califica desde múltiples dimensiones (temática, estructura, lenguaje, diversidad) y genera comentarios; comparación con redacciones modelo destacadas |
 
 ## 4. Programación inteligente
@@ -505,7 +505,7 @@ Los escenarios de programación inteligente buscan mejorar la eficiencia del des
 | 5 | Herramienta de generación automática de sentencias SQL a partir de lenguaje natural | LLM convierte consultas en lenguaje natural a SQL, soportando uniones complejas de múltiples tablas y consultas de agregación |
 | 6 | Plataforma de pruebas automatizadas de API y generación de documentación | LLM analiza comentarios del código y definiciones de interfaces, genera automáticamente casos de prueba y documentación de API; integración con Postman para ejecución de pruebas |
 | 7 | Herramienta inteligente de grabación y mantenimiento de scripts de pruebas UI | Plugin del navegador que graba las operaciones del usuario, LLM analiza la intención de las operaciones para generar scripts de prueba; IA repara localizadores obsoletos |
-| 8 | Análisis de registros del sistema y localización de fallos | ELK Stack recopila datos de registros, LLM analiza registros anómalos para extraer información clave y localizar la causa raíz; recomendación de soluciones de reparación |
+| 8 | Análisis de registros del sistema y localización de fallos | ELK Stack recopila datos de registros, LLM analiza registros anómalos para extraer información clave y localizar la causa raíz; recommendación de soluciones de reparación |
 | 9 | Herramienta de generación automática de código de interfaz de usuario (UI) | Imágenes de diseño reconocidas por OCR para identificar la estructura de layout, LLM genera CSS responsivo y código de componentes; integración con TailwindCSS para soportar múltiples frameworks de estilos |
 | 10 | Asistente de diseño inteligente y modelado de estructura de base de datos | Documentos de requisitos del negocio ingresados a LLM, generación automática de diagramas ER y estructuras de tablas; soporte de exportación de scripts DDL para MySQL/PostgreSQL |
 
@@ -519,7 +519,7 @@ Los escenarios del sector salud buscan mejorar la eficiencia diagnóstica y la c
 | 2 | Experto en consultas de salud basado en tecnología de búsqueda de conocimiento | Construcción de un grafo de conocimiento médico (ICD-10, prospectos de medicamentos, guías clínicas), búsqueda RAG para generar respuestas |
 | 3 | Plataforma de análisis de decisión de datos de investigación clínica | Integración de datos EMR y resultados de análisis, LLM asiste en la generación de código de análisis estadístico y gráficos de visualización; soporte para estudios de cohorte y análisis de supervivencia |
 | 4 | Sistema inteligente de generación de preguntas de examen médico y análisis de errores | Ingreso de capítulos de libros de texto y puntos de conocimiento, LLM genera preguntas de práctica y explicaciones; registro automático de errores y generación de análisis de puntos débiles |
-| 5 | Experto en preguntas y respuestas del grafo de conocimiento del proceso completo de investigación farmacológica | Construcción de un grafo de conocimiento fármaco-diana-enfermedad, LLM responde preguntas relacionadas con investigación; soporte para búsqueda bibliográfica y recomendación de protocolos experimentales |
+| 5 | Experto en preguntas y respuestas del grafo de conocimiento del proceso completo de investigación farmacológica | Construcción de un grafo de conocimiento fármaco-diana-enfermedad, LLM responde preguntas relacionadas con investigación; soporte para búsqueda bibliográfica y recommendación de protocolos experimentales |
 | 6 | Asistente inteligente de preguntas y respuestas sobre prospectos de medicamentos | Carga de imágenes de prospectos o ingreso del nombre del medicamento, LLM responde preguntas sobre dosificación, efectos adversos, precauciones, etc. |
 | 7 | Asistente de generación de artículos de divulgación sobre enfermedades | Ingreso del nombre de la enfermedad y la audiencia, LLM genera artículos de divulgación accesibles; soporte de múltiples versiones (versión para pacientes/versión para familiares) |
 | 8 | Herramienta de generación automática de informes de imágenes médicas | El radiólogo describe las características de las imágenes, LLM genera automáticamente un informe estructurado; soporte de plantillas para tipos comunes de exámenes |
@@ -539,7 +539,7 @@ Los escenarios de ciberseguridad se centran en la protección de seguridad y el 
 | 5 | Asistente de generación inteligente de informes de pruebas de penetración | Tras completar la prueba de penetración, LLM genera automáticamente el informe según la descripción de vulnerabilidades; generación masiva de sugerencias de reparación |
 | 6 | Protección contra código malicioso y monitoreo de cumplimiento de privacidad | Análisis en sandbox del comportamiento de archivos sospechosos, LLM identifica características maliciosas y genera firmas; escaneo de identificación de datos privados |
 | 7 | Herramienta de generación de listas de verificación de configuración de seguridad | Ingreso del tipo de sistema objetivo, LLM genera listas de verificación de configuración de seguridad; soporte de estándares como MLPS 2.0, CIS, etc. |
-| 8 | Asistente de consulta y análisis inteligente de inteligencia sobre amenazas | Conexión con múltiples fuentes de inteligencia sobre amenazas (código abierto, comerciales), LLM interpreta la inteligencia y la relaciona con los activos empresariales; recomendación de estrategias de protección |
+| 8 | Asistente de consulta y análisis inteligente de inteligencia sobre amenazas | Conexión con múltiples fuentes de inteligencia sobre amenazas (código abierto, comerciales), LLM interpreta la inteligencia y la relaciona con los activos empresariales; recommendación de estrategias de protección |
 | 9 | Asistente de generación de informes de revisión post-incidente de seguridad | Tras un incidente de seguridad, LLM genera automáticamente un informe de revisión según la línea de tiempo; análisis de causa raíz y sugerencias de mejora |
 | 10 | Centro de monitoreo y alerta temprana de inteligencia sobre amenazas global | Rastreo web de información de seguridad global y divulgación de vulnerabilidades, LLM extrae información clave y evalúa el impacto; notificaciones de alerta por correo/SMS |
 
@@ -550,7 +550,7 @@ Los escenarios del sector financiero se centran en el control de riesgos y la in
 | N.º | Nombre del escenario de aplicación | Referencia de implementación |
 | :--: | --- | --- |
 | 1 | Asistente de generación inteligente de informes de debida diligencia crediticia | Ingreso de información básica de la empresa y datos financieros, LLM genera automáticamente el informe de debida diligencia crediticia; marcado automático de puntos de riesgo |
-| 2 | Asesor inteligente de gestión de patrimonio bancario privado | LLM analiza el perfil de riesgo y los objetivos financieros del cliente, genera recomendaciones de asignación de activos; integración con productos financieros y base de fondos |
+| 2 | Asesor inteligente de gestión de patrimonio bancario privado | LLM analiza el perfil de riesgo y los objetivos financieros del cliente, genera recommendaciones de asignación de activos; integración con productos financieros y base de fondos |
 | 3 | Asistente de generación inteligente y verificación de cumplimiento de prospectos de IPO | Plantillas modulares del prospecto de oferta, LLM llena automáticamente la descripción del negocio y los factores de riesgo; motor de reglas de verificación de cumplimiento para comprobar la consistencia entre secciones |
 | 4 | Sistema de generación automática de informes financieros y alerta de anomalías operativas | Recopilación automática de datos del sistema financiero, LLM genera la sección de análisis financiero y discusión de la dirección; reglas de alerta para indicadores anómalos |
 | 5 | Asistente de extracción de información y preguntas y respuestas sobre facturas y recibos financieros | Carga de imágenes de facturas, OCR reconoce la información, LLM responde preguntas relacionadas con los documentos; soporte para facturas de IVA, billetes de tren, etc. |
@@ -587,12 +587,12 @@ Los escenarios de producción y gestión de contenido se centran en la generaci�
 | 2 | Asistente de redacción inteligente de historias de marca y artículos de relaciones públicas | Ingreso de palabras clave de marca e información del producto, LLM genera versiones de textos en múltiples estilos; integración con API de pruebas A/B |
 | 3 | Sistema de gestión de transmisión en vivo e interacción de avatares digitales virtuales | Modelado de imagen digital + voz TTS + diálogo LLM, respuesta en tiempo real a los comentarios de los espectadores; integración con transmisión OBS |
 | 4 | Generación de guiones de videos cortos y edición inteligente | LLM genera guiones y storyboards de videos cortos, Sora/Runway genera fragmentos de video; herramienta de edición los ensambla automáticamente |
-| 5 | Transcripción por voz de reuniones de ventas y recomendación de guiones | Transcripción ASR de llamadas telefónicas, LLM analiza la conversación y recomienda guiones ganadores; integración con sistema CRM |
+| 5 | Transcripción por voz de reuniones de ventas y recommendación de guiones | Transcripción ASR de llamadas telefónicas, LLM analiza la conversación y recomienda guiones ganadores; integración con sistema CRM |
 | 6 | Sistema inteligente de generación y diseño de contenido de marketing | Ingreso de información del producto, LLM genera textos de marketing y extracción de puntos de venta; integración con plantillas de Canva/Gaoding |
 | 7 | Sistema de monitoreo en tiempo real del ROI de publicidad multicanal y optimización de estrategias | Integración con APIs de plataformas publicitarias para recopilar datos, LLM analiza el rendimiento y genera sugerencias de optimización; alertas de anomalías |
-| 8 | Análisis de palabras clave de motores de búsqueda y análisis de tráfico | Recopilación de datos de Baidu Index, 5118, LLM analiza tendencias y competitividad de palabras clave; recomendación de temas de contenido |
+| 8 | Análisis de palabras clave de motores de búsqueda y análisis de tráfico | Recopilación de datos de Baidu Index, 5118, LLM analiza tendencias y competitividad de palabras clave; recommendación de temas de contenido |
 | 9 | Plataforma de análisis de publicidad de la competencia | API de plataformas de datos de terceros para recopilar anuncios de la competencia, LLM analiza estrategias de publicación y características creativas |
-| 10 | Sistema de análisis inteligente de temas populares y recomendación de contenido de toda la web | Recopilación de datos de tendencias de Weibo, listas populares de Douyin, LLM analiza tendencias y recomienda ángulos temáticos; programación calendario de contenido |
+| 10 | Sistema de análisis inteligente de temas populares y recommendación de contenido de toda la web | Recopilación de datos de tendencias de Weibo, listas populares de Douyin, LLM analiza tendencias y recomienda ángulos temáticos; programación calendario de contenido |
 
 ## 10. Administración pública inteligente
 
@@ -636,14 +636,14 @@ Los escenarios de turismo y viajes buscan mejorar la experiencia de viaje y la c
 | :--: | --- | --- |
 | 1 | Generador de itinerarios automáticos basado en AIGC para viajeros perezosos | Ingreso de preferencias del usuario (días, presupuesto, intereses), LLM genera planes de itinerario diario; API de atracciones para obtener horarios y precios de entradas |
 | 2 | Robot de predicción de tendencias de precios de vuelos y hoteles de toda la web y bloqueo automático de precios bajos | Recopilación de datos de precios de plataformas OTA, modelo ML predice tendencias de precios; alertas de monitoreo de precios |
-| 3 | Asesor de reorganización de itinerarios entre aerolíneas y recomendación de planes de emergencia tras cancelación de vuelos | Monitoreo del estado de vuelos, LLM analiza planes de itinerario alternativos; comparación de precios entre aerolíneas |
+| 3 | Asesor de reorganización de itinerarios entre aerolíneas y recommendación de planes de emergencia tras cancelación de vuelos | Monitoreo del estado de vuelos, LLM analiza planes de itinerario alternativos; comparación de precios entre aerolíneas |
 | 4 | Sistema de pre-revisión inteligente de documentos de visa y asistencia de llenado automatizado | Carga de fotos de documentos, verificación de integridad de información mediante OCR; llenado automático de formularios |
 | 5 | Asistente de traducción por voz en tiempo real y traducción visual de menús para viajes al extranjero | Modelo de traducción por voz sin conexión, OCR de imágenes de menús para reconocimiento y traducción |
 | 6 | Analizador de guía para evitar hoteles problemáticos basado en reseñas reales de big data | Recopilación de datos de reseñas de hoteles, LLM extrae palabras clave de reseñas positivas y negativas |
 | 7 | Plataforma de vista previa inmersiva en VR y selección virtual de habitaciones en el destino | Recopilación de imágenes panorámicas 360°, tecnología VR para vista previa inmersiva; recorrido virtual de habitaciones |
 | 8 | Asistente de generación automática de diarios de viaje ilustrados y textos para redes sociales a partir de huellas de viaje | Extracción de información de fecha y lugar de las fotos, LLM genera textos de diarios de viaje; composición con plantillas |
 | 9 | Plataforma de recopilación automática de facturas de viajes de negocios y gestión de reembolsos conforme a normativa | Integración con API de plataformas de viajes, recopilación automática de información de facturas; verificación de cumplimiento |
-| 10 | Predicción en tiempo real de congestión de visitantes y navegación con rutas de visita en horarios no pico | Recopilación de datos de flujo de visitantes en atracciones, modelo ML predice períodos de congestión; recomendación de horarios no pico |
+| 10 | Predicción en tiempo real de congestión de visitantes y navegación con rutas de visita en horarios no pico | Recopilación de datos de flujo de visitantes en atracciones, modelo ML predice períodos de congestión; recommendación de horarios no pico |
 
 ## 13. Acompañamiento emocional
 
@@ -657,7 +657,7 @@ Los escenarios de acompañamiento emocional se centran en la salud mental y el c
 | 4 | Entrenador de práctica social simulada con AIGC para personas con ansiedad social | Simulación de escenarios sociales virtuales, LLM asume diferentes roles; sugerencias de habilidades sociales |
 | 5 | Generador personalizado de cuentos para dormir para niños con IA generativa | Los padres ingresan el tema y las preferencias, LLM genera cuentos personalizados; generación de música de fondo |
 | 6 | Sistema de restauración digital de vidas de seres queridos fallecidos y diálogo trans temporal con LLM | Entrenamiento de modelo personalizado con datos vitales (voz, textos); generación de conversaciones con memoria |
-| 7 | Chatbot empático de espejo de personalidad basado en datos MBTI con IA | Ingreso de resultados de tests MBTI, LLM genera análisis de personalidad y respuestas empáticas; recomendaciones de compatibilidad de personalidad |
+| 7 | Chatbot empático de espejo de personalidad basado en datos MBTI con IA | Ingreso de resultados de tests MBTI, LLM genera análisis de personalidad y respuestas empáticas; recommendaciones de compatibilidad de personalidad |
 | 8 | Asistente de monitoreo del estado de ánimo las 24 horas y motivación emocional positiva con IA | Registro diario del estado de ánimo, LLM analiza tendencias y genera contenido motivacional; envío de recordatorios positivos |
 | 9 | Refugio anónimo de desahogo para adolescentes con protección de privacidad con IA | Entrada anónima de desahogo, LLM proporciona escucha y sugerencias; alerta por palabras sensibles |
 | 10 | Sistema de crianza de mascotas virtuales con IA y capacidad de evolución autónoma | Entrenamiento de modelo de personalidad de mascota, crecimiento y evolución a través de interacción conversacional; sistema de vestuario virtual |
@@ -673,7 +673,7 @@ Los escenarios de entretenimiento y ocio buscan ofrecer una rica experiencia de 
 | 3 | Modificador generativo de finales de novelas interactivas | Las elecciones del lector influyen en la dirección de la trama, LLM genera múltiples ramas de finales |
 | 4 | Estación de trabajo de generación automática AIGC de modelos 3D de personajes de anime | Texto descriptivo genera bocetos de personajes, herramientas de modelado 3D crean automáticamente los modelos; renderizado de texturas y materiales |
 | 5 | Análisis visual CV y comentarista inteligente por IA de partidas de esports | Análisis en tiempo real de la pantalla del juego, identificación de momentos clave; LLM genera textos de comentario |
-| 6 | Motor de algoritmo de recomendación de contenido humorístico personalizado | Perfil de intereses del usuario, emparejamiento y recomendación de contenido humorístico |
+| 6 | Motor de algoritmo de recommendación de contenido humorístico personalizado | Perfil de intereses del usuario, emparejamiento y recommendación de contenido humorístico |
 | 7 | Software de corrección de afinación por IA y embellecimiento vocal para karaoke | Procesamiento de reducción de ruido y mejora de voz; algoritmo de corrección de afinación por IA |
 | 8 | Herramienta de extracción por IA y edición de tramas específicas de personajes en series y películas | Análisis del contenido del video, extracción de fragmentos relacionados con personajes; edición automática |
 | 9 | Sistema de generación automática de audiolibros con síntesis TTS multicolor | Asignación de personajes del texto, generación de voces personalizadas; adición de música de fondo y efectos de sonido |
@@ -691,9 +691,9 @@ Los escenarios de servicios de comercio electrónico se centran en la eficiencia
 | 4 | Robot de análisis de sentimientos de clientes y respuesta inteligente basado en NLP | Análisis de sentimientos en conversaciones de consultas, generación automática de respuestas de consuelo; clasificación de reseñas positivas y negativas |
 | 5 | Sistema de transmisión en vivo con avatares digitales AIGC las 24 horas | Imagen digital + generación de guiones en tiempo real, invocación en tiempo real de información de productos; respuestas interactivas a comentarios |
 | 6 | Plugin de comparación de precios por IA y predicción de tendencias de productos similares de toda la web | Rastreo de precios en plataformas de comercio electrónico, visualización de comparación de precios; predicción de tendencias de precios |
-| 7 | Plataforma de selección inteligente por IA de fotos de reseñas de clientes y síntesis de videos cortos | Puntuación de calidad de fotos de reseñas de clientes, recomendación automática de contenido de calidad; síntesis con plantillas de videos cortos |
-| 8 | Análisis por voz en tiempo real de conversaciones de ventas y recomendación de guiones ganadores basado en LLM | Transcripción ASR de llamadas, detección de conformidad de guiones en tiempo real; recomendación de guiones |
-| 9 | Motor de análisis de tendencias de mercado por IA y predicción de productos exitosos | Recopilación y análisis de datos de redes sociales y comercio electrónico, LLM identifica tendencias populares; recomendaciones de selección de productos |
+| 7 | Plataforma de selección inteligente por IA de fotos de reseñas de clientes y síntesis de videos cortos | Puntuación de calidad de fotos de reseñas de clientes, recommendación automática de contenido de calidad; síntesis con plantillas de videos cortos |
+| 8 | Análisis por voz en tiempo real de conversaciones de ventas y recommendación de guiones ganadores basado en LLM | Transcripción ASR de llamadas, detección de conformidad de guiones en tiempo real; recommendación de guiones |
+| 9 | Motor de análisis de tendencias de mercado por IA y predicción de productos exitosos | Recopilación y análisis de datos de redes sociales y comercio electrónico, LLM identifica tendencias populares; recommendaciones de selección de productos |
 | 10 | Sistema de agrupación por IA de perfiles de usuarios de tráfico privado y operación de precisión | Análisis de agrupación de datos de comportamiento de usuarios, generación de etiquetas de perfiles; activación de marketing automatizado |
 
 ## 16. Energía
@@ -702,7 +702,7 @@ Los escenarios del sector energético buscan lograr una gestión inteligente y l
 
 | N.º | Nombre del escenario de aplicación | Referencia de implementación |
 | :--: | --- | --- |
-| 1 | Asesor de análisis del comportamiento de consumo eléctrico doméstico y estrategias de ahorro energético con IA | Recopilación de datos de medidores inteligentes, análisis de patrones de consumo; LLM genera recomendaciones de ahorro energético |
+| 1 | Asesor de análisis del comportamiento de consumo eléctrico doméstico y estrategias de ahorro energético con IA | Recopilación de datos de medidores inteligentes, análisis de patrones de consumo; LLM genera recommendaciones de ahorro energético |
 | 2 | Sistema de reconocimiento visual CV por dron de defectos en paneles fotovoltaicos | Inspección con dron, análisis de imágenes termoinfrarrojas; detección y marcado de defectos |
 | 3 | Agente de predicción de tendencias de precios de mercado eléctrico al contado y estrategia automática de ganancias con IA | Recopilación de datos del mercado eléctrico, modelo de predicción de precios; generación y ejecución de estrategias de trading |
 | 4 | Sistema de evaluación de salud no destructiva por IA y alerta temprana de riesgo de fuga térmica de baterías de almacenamiento | Monitoreo de datos operativos de baterías, modelo de evaluación de salud; alertas de riesgo |
@@ -736,7 +736,7 @@ Los escenarios de marketing con IA buscan mejorar la eficiencia del marketing y 
 
 | N.º | Nombre del escenario de aplicación | Referencia de implementación |
 | :--: | --- | --- |
-| 1 | Motor de redacción automática AIGC de textos virales para Xiaohongshu (RED) | Ingreso del tema, LLM genera textos de recomendación; optimización de emoji y etiquetas de temas |
+| 1 | Motor de redacción automática AIGC de textos virales para Xiaohongshu (RED) | Ingreso del tema, LLM genera textos de recommendación; optimización de emoji y etiquetas de temas |
 | 2 | Herramienta de diseño inteligente de pósters de marketing y adaptación a múltiples tamaños | Ingreso del texto, emparejamiento inteligente de plantillas de pósters y exportación en múltiples tamaños |
 | 3 | Plataforma de generación creativa AIGC de LOGO de marca y construcción del sistema de identidad visual (VI) | Ingreso de palabras clave de marca, generación creativa de LOGO; generación de normativas VI |
 | 4 | Asistente de seguimiento de tendencias populares por IA y generación creativa de marketing oportunista | Recopilación de datos de tendencias, LLM analiza ángulos de marketing; generación de propuestas creativas |
