@@ -452,7 +452,7 @@ const localizedArticleText = {
     'learning-map': {
       title: 'Volver a la ruta de aprendizaje',
       description:
-        'Revisa la ruta completa, los objetivos por etapa y el orden recomendado.'
+        'Revisa la ruta completa, los objetivos por etapa y el orden recommendado.'
     },
     'integrating-ai-capabilities': {
       title: 'Nivel inicial 4: añadir capacidades de IA',

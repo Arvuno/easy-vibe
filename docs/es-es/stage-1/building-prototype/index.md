@@ -266,7 +266,7 @@ Pensar es bueno, pero no hay que sobre-pensar. Dejemos de lado el exceso de refl
 
 Al principio no busques el prompt perfecto; empieza con tu expresion mas natural. Como cuando le describes un requisito a un companero, dile a la IA en lenguaje llano lo que quieres hacer, y luego deja que la IA te ayude a optimizarlo en algo mas profesional.
 
-#### 2.1.1 Empezar con una descripcion verbal (recomendado para principiantes)
+#### 2.1.1 Empezar con una descripcion verbal (recommendado para principiantes)
 
 Primero describe la idea con tus propias palabras, aunque sea rudimentario, no importa:
 
@@ -344,7 +344,7 @@ Puedes modificar ligeramente este prompt y luego enviarlo al AI IDE para generar
 
 #### 2.2.1 Preparacion: conocer las operaciones basicas del AI IDE
 
-Si aun no estas familiarizado con el uso basico del AI IDE (como Cursor, Trae, Windsurf, etc.), te recomendamos primero ver el [tutorial basico de IDE](/zh-cn/appendix/2-development-tools/ide-basics/) en el apendice, para entender como:
+Si aun no estas familiarizado con el uso basico del AI IDE (como Cursor, Trae, Windsurf, etc.), te recommendamos primero ver el [tutorial basico de IDE](/zh-cn/appendix/2-development-tools/ide-basics/) en el apendice, para entender como:
 - Crear un nuevo proyecto
 - Conversar con el AI Agent
 - Entender el proceso de generacion de codigo de la IA

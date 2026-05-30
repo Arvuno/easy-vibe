@@ -474,7 +474,7 @@ El resultado implementado queda asi:
 
 ![](../../../zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-23-21-13.png)
 
-Vale la pena notar que la generacion de imagenes suele encontrarse con problemas raros. Te recomendamos pedir al AI IDE que muestre el mensaje de error completo para poder copiarlo y corregirlo; de lo contrario, puede repetir "generacion fallida" sin decir por que. Por ejemplo, puedes decir:
+Vale la pena notar que la generacion de imagenes suele encontrarse con problemas raros. Te recommendamos pedir al AI IDE que muestre el mensaje de error completo para poder copiarlo y corregirlo; de lo contrario, puede repetir "generacion fallida" sin decir por que. Por ejemplo, puedes decir:
 
 ```
 No muestres solo "fallo la generacion de imagen". Muestra siempre la razon completa del fallo, por ejemplo imagenes no compatibles, error de solicitud, timeout, etc.
@@ -490,7 +490,7 @@ Puedes usar APIs de texto a imagen o imagen a imagen para implementar distintas 
 
 ## Mas opciones de servicios de imagen
 
-A continuacion se ofrecen otras opciones. Te recomendamos primero hacer funcionar la generacion de imagenes con Qwen y luego sustituirla por los siguientes servicios segun resultado y coste, de acuerdo con tu experiencia real.
+A continuacion se ofrecen otras opciones. Te recommendamos primero hacer funcionar la generacion de imagenes con Qwen y luego sustituirla por los siguientes servicios segun resultado y coste, de acuerdo con tu experiencia real.
 
 ### Integracion de Recraft
 
@@ -803,6 +803,6 @@ En la siguiente seccion conectaremos estas capacidades de IA dispersas y las com
 
 <RelatedArticlesSection
   title="Articulos relacionados"
-  description="Ruta recomendada para pasar de capacidades de IA puntuales a un flujo completo de producto."
+  description="Ruta recommendada para pasar de capacidades de IA puntuales a un flujo completo de producto."
   :items="relatedArticles"
 />

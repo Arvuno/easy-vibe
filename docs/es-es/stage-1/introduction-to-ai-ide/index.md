@@ -68,7 +68,7 @@ Por eso necesitas un IDE (Integrated Development Environment, entorno de desarro
 ## 2. Que es un IDE y por que lo necesitas
 
 ::: info Lectura previa
-Si todavia no sabes que es un IDE o para que sirve cada elemento de su interfaz, te recomendamos leer primero [Introduccion a IDE](/zh-cn/appendix/2-development-tools/ide-basics) para conocer los conceptos basicos y funciones habituales.
+Si todavia no sabes que es un IDE o para que sirve cada elemento de su interfaz, te recommendamos leer primero [Introduccion a IDE](/zh-cn/appendix/2-development-tools/ide-basics) para conocer los conceptos basicos y funciones habituales.
 :::
 
 En los primeros tiempos de la programacion, bastaban un editor de texto simple y un procesador del lenguaje. Pero al aumentar la complejidad de los proyectos, los desarrolladores necesitaron con urgencia una herramienta que gestionara archivos de forma eficiente, soportara resaltado de sintaxis y permitiera depurar. Asi nacio el entorno de desarrollo integrado, o IDE.
@@ -249,7 +249,7 @@ Descarga de la version china: https://www.trae.cn/
 ##### Precio y formas de uso de Trae
 
 ::: info 💡 Consejo de version (para principiantes se recomienda CN)
-- **Para empezar desde cero recomendamos mucho descargar la version china (CN, trae.cn)**. Actualmente ofrece mejor experiencia, las funciones basicas son gratuitas y no requiere red internacional.
+- **Para empezar desde cero recommendamos mucho descargar la version china (CN, trae.cn)**. Actualmente ofrece mejor experiencia, las funciones basicas son gratuitas y no requiere red internacional.
 - Si necesitas usar modelos extranjeros como GPT-5 y tu red lo permite, puedes elegir la version internacional.
 - Si ya tienes una API Key de un modelo de terceros, conectarlo puede ayudarte a controlar costes con flexibilidad.
 :::
@@ -260,7 +260,7 @@ Descarga de la version china: https://www.trae.cn/
 
 Sobre el coste y uso de Trae, hay varias opciones:
 
-- **Version CN nacional (muy recomendada)**: uso basico gratuito; por ahora la experiencia global es mejor que la internacional y es muy adecuada para principiantes. Como hay muchos usuarios, a veces puede haber cola.
+- **Version CN nacional (muy recommendada)**: uso basico gratuito; por ahora la experiencia global es mejor que la internacional y es muy adecuada para principiantes. Como hay muchos usuarios, a veces puede haber cola.
 - **Version internacional**: la suscripcion cuesta alrededor de 3 USD al mes y permite acceder a modelos extranjeros como GPT-5, pero requiere acceso a red internacional.
 - **Conexion de modelos de terceros**: si ya tienes Token API de modelos nacionales como DeepSeek, Tongyi Qianwen o Kimi, puedes conectarlos mediante la configuracion de modelos de terceros de Trae. Los grandes proveedores cloud como Alibaba Cloud, Tencent Cloud o Baidu Cloud suelen ofrecer planes Coding Plan; tras comprarlos, puedes usar sus APIs de modelos grandes a menor coste. Asi eliges libremente tu modelo preferido y controlas el coste.
 
@@ -289,7 +289,7 @@ Tras hacer clic en "Builder", veras los modos "Chat" y "Builder with MCP":
 
 En la zona inferior tambien veras la opcion de seleccion de modelo; al hacer clic puedes cambiar el modelo grande actual. En la version china puedes elegir modelos nacionales como Kimi k2 o GLM; si usas Trae internacional, tambien puedes elegir modelos extranjeros como ChatGPT o Claude. Sin embargo, como los modelos nacionales avanzan muy rapido, Kimi, Qwen y GLM ya se acercan en muchas tareas a Claude 3.5 o 3.7 y son suficientes para desarrollo diario. Aqui no exigimos usar una version concreta.
 
-**Ten en cuenta que aqui no se recomienda usar modo Auto (seleccion automatica de modelo). Si es la version internacional, recomendamos Gemini o GPT; si es la version china, recomendamos probar modelos nacionales como Kimi k2, MiniMax o GLM.** Cada modelo encaja mejor en escenarios distintos; no hay una regla dogmatica sobre cual es mejor. Si una tarea se atasca, cambia de modelo y usa varias pruebas para encontrar tu mejor resultado.
+**Ten en cuenta que aqui no se recomienda usar modo Auto (seleccion automatica de modelo). Si es la version internacional, recommendamos Gemini o GPT; si es la version china, recommendamos probar modelos nacionales como Kimi k2, MiniMax o GLM.** Cada modelo encaja mejor en escenarios distintos; no hay una regla dogmatica sobre cual es mejor. Si una tarea se atasca, cambia de modelo y usa varias pruebas para encontrar tu mejor resultado.
 
 ![](../../../zh-cn/stage-1/introduction-to-ai-ide/images/image21.png)
 
@@ -314,9 +314,9 @@ Coding Plan es un plan de suscripcion ofrecido por grandes proveedores cloud. Tr
 
 Tal vez preguntes: si ya puedo llamar modelos grandes directamente por API, por que comprar Coding Plan? La razon principal es: **puedes usarlo continuamente**. Su ventaja central es que permite llamar modelos grandes en cualquier momento y con frecuencia, sin miedo a que el coste se dispare ni necesidad de revisar la tabla de facturacion todo el tiempo.
 
-**Coding Plan nacionales recomendados**
+**Coding Plan nacionales recommendados**
 
-Estas son opciones recomendadas de Coding Plan de proveedores cloud principales en China:
+Estas son opciones recommendadas de Coding Plan de proveedores cloud principales en China:
 
 - Zhipu AI (BigModel Plan): https://bigmodel.cn/glm-coding  
 - Volcengine (ByteDance Cloud AI Plan): https://www.volcengine.com/activity/codingplan
@@ -337,7 +337,7 @@ Los pasos son muy simples y solo tardan unos minutos:
 
 ::: tip 🎯 Recomendacion de modelo personalizado
 
-Al conectar modelos personalizados en Trae, **recomendamos por defecto la opcion OpenRouter**. OpenRouter ofrece una API unificada que facilita conectar multiples modelos de lenguaje grandes.
+Al conectar modelos personalizados en Trae, **recommendamos por defecto la opcion OpenRouter**. OpenRouter ofrece una API unificada que facilita conectar multiples modelos de lenguaje grandes.
 
 **Hasta el 12 de febrero de 2026, tambien puedes usar la API gratuita de StepFun:**
 
@@ -357,7 +357,7 @@ Estas opciones gratuitas son ideales para principiantes. Antes de entrar en prod
 4. Tras recargar, crea y copia la API Key en la pagina API Keys
 5. En Trae, haz clic en **"Add Model"**, busca DeepSeek, elige el modelo correspondiente e introduce la API Key
 
-Con la siguiente interfaz puedes agregarlo correctamente. Ojo: tras ver las opciones de seleccion de modelo, **debes desplazarte hasta el final**. Abajo hay una opcion "Custom Model"; solo al hacer clic podras introducir el model ID. Aqui puedes escribir directamente el model ID recomendado, por ejemplo `stepfun/step-3.5-flash:free`. Luego haz clic abajo para obtener Key, ve al sitio oficial y escribe la API Key correspondiente para usarlo normalmente.
+Con la siguiente interfaz puedes agregarlo correctamente. Ojo: tras ver las opciones de seleccion de modelo, **debes desplazarte hasta el final**. Abajo hay una opcion "Custom Model"; solo al hacer clic podras introducir el model ID. Aqui puedes escribir directamente el model ID recommendado, por ejemplo `stepfun/step-3.5-flash:free`. Luego haz clic abajo para obtener Key, ve al sitio oficial y escribe la API Key correspondiente para usarlo normalmente.
 
 ![](../../../zh-cn/stage-1/introduction-to-ai-ide/images/index-2026-02-12-14-14-51.png)
 
@@ -755,7 +755,7 @@ En el proximo capitulo cambiaremos el foco de "saber usar herramientas" a "hacer
 
 <RelatedArticlesSection
   title="Seguir aprendiendo"
-  description="Te recomendamos entrar primero en la practica de prototipos y luego incorporar capacidades de IA paso a paso."
+  description="Te recommendamos entrar primero en la practica de prototipos y luego incorporar capacidades de IA paso a paso."
   :items="relatedArticles"
 />
 

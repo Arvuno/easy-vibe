@@ -302,7 +302,7 @@ Por favor no me des una lista de funciones directamente, sino analiza usando el 
 2. En cada escenario, cual es el job central que el usuario quiere completar
 3. Que soluciones alternativas existen actualmente
 4. Que job es mas adecuado como punto de partida para un MVP, y por que
-5. Escribe el job final recomendado como una frase JTBD clara
+5. Escribe el job final recommendado como una frase JTBD clara
 ```
 
 La ventaja de hacer esto es que no seras arrastrado inmediatamente por la IA a "brainstormear 50 funciones", sino que primero aclararas la direccion.

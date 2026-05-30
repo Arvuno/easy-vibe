@@ -81,7 +81,7 @@ El historial de conversacion guardado suele incluir el siguiente contenido:
   },
   {
     "role": "assistant",
-    "content": "[Texto recomendacion de auriculares Bluetooth]\n\n🎧 Adios al retraso, experiencia de escucha inmersiva\n\n chicas! Estos auriculares Bluetooth son increibles\n\n 40dB de cancelacion activa de ruido, entra instantaneamente al mundo de la musica\n 30 horas de bateria super larga, una semana de viaje sin cargar\n llamadas claras como en persona, incluso en el metro ruidoso\n diseno semi-in-ear, comodos de usar durante horas\n\n Oferta por tiempo limitado, haz clic en el enlace de abajo para conseguirlos!",
+    "content": "[Texto recommendacion de auriculares Bluetooth]\n\n🎧 Adios al retraso, experiencia de escucha inmersiva\n\n chicas! Estos auriculares Bluetooth son increibles\n\n 40dB de cancelacion activa de ruido, entra instantaneamente al mundo de la musica\n 30 horas de bateria super larga, una semana de viaje sin cargar\n llamadas claras como en persona, incluso en el metro ruidoso\n diseno semi-in-ear, comodos de usar durante horas\n\n Oferta por tiempo limitado, haz clic en el enlace de abajo para conseguirlos!",
     "timestamp": "2026-01-20 10:30:05"
   }
 ]
